@@ -30,21 +30,24 @@ const Gallery = () => {
             className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4"
           >
             {galleryImages.map((image, index) => (
-              <motion.div
+                <motion.div
                 key={image.id}
                 initial={{ opacity: 0, scale: 0.9 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ delay: 0.1 + index * 0.05 }}
-                className="group relative aspect-square rounded-xl overflow-hidden cursor-pointer bg-gradient-to-br from-club-blue/20 via-club-green/20 to-club-red/20"
-                onClick={() => setSelectedImage(image.id)}
-              >
+                className="group relative aspect-square rounded-xl overflow-hidden cursor-pointer "
+                onClick={() => setSelectedImage(image.src)}
+                >
+                    {/* <img src={`${image.src}`} alt="" /> */}
                 {/* Placeholder with gradient */}
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <span className="text-4xl opacity-50">📸</span>
-                </div>
+                <div className="absolute inset-0 flex items-center overflow-hidden justify-center">
+                    <img src={image.src} alt="" height="300px"/>
+                  {/* <span className="text-4xl opacity-50">📸</span> */}
+                  </div>
                 
                 {/* Hover Overlay */}
                 <div className="absolute inset-0 bg-foreground/0 group-hover:bg-foreground/60 transition-all duration-300 flex items-center justify-center">
+                  
                   <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-center p-4">
                     <p className="text-primary-foreground font-medium text-sm">{image.event}</p>
                   </div>
@@ -68,7 +71,7 @@ const Gallery = () => {
                 className="relative max-w-4xl w-full aspect-video rounded-2xl overflow-hidden bg-gradient-to-br from-club-blue/30 via-club-green/30 to-club-red/30"
               >
                 <div className="absolute inset-0 flex items-center justify-center">
-                  <span className="text-8xl opacity-50">📸</span>
+                  <span className="text-8xl opacity-90"><img src={selectedImage} alt="" /></span>
                 </div>
                 <button
                   onClick={() => setSelectedImage(null)}

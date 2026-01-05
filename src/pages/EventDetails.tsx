@@ -32,19 +32,19 @@ const EventDetails = () => {
             </Link>
           </motion.div>
 
-          <div className="grid lg:grid-cols-3 gap-8">
+          <div className="grid lg:grid-cols-3 gap-8 ">
             {/* Main Content */}
             <div className="lg:col-span-2 space-y-8">
               {/* Hero */}
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="relative h-64 md:h-80 rounded-2xl overflow-hidden"
+                className="relative h-64 md:h-80 rounded-2xl overflow-hidden "
               >
                 <img 
                   src={event.image} 
                   alt={event.name}
-                  className="w-full h-full object-cover"
+                  className={`w-full  object-cover ${event.align}`}
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-foreground/80 via-foreground/20 to-transparent" />
                 <div className="absolute bottom-6 left-6 right-6">
@@ -136,7 +136,7 @@ const EventDetails = () => {
                           🏢
                         </div>
                         <p className="font-medium text-foreground text-sm mb-1">{sponsor.name}</p>
-                        <span
+                        {/* <span
                           className={`text-xs font-medium px-2 py-0.5 rounded-full ${
                             sponsor.tier === "Title Sponsor"
                               ? "bg-secondary/20 text-secondary"
@@ -146,7 +146,7 @@ const EventDetails = () => {
                           }`}
                         >
                           {sponsor.tier}
-                        </span>
+                        </span> */}
                       </div>
                     ))}
                   </div>

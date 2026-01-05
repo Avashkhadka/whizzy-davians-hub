@@ -1,108 +1,140 @@
+import avash from "@/assets/team/avash.jpg";
+import bibek from "@/assets/team/bibek.jpeg";
+import dipesh from "@/assets/team/dipes.jpeg";
+import ishta from "@/assets/team/ishta.jpeg";
+import maheshwor from "@/assets/team/maheshwor.jpeg";
+import milin from "@/assets/team/milin.jpeg";
+import rahita from "@/assets/team/rahita.jpeg";
+import sarun from "@/assets/team/sarun.jpeg";
+import shabda from "@/assets/team/shabda.jpeg";
+import sita from "@/assets/team/sita.jpeg";
+import riya from "@/assets/team/riya.jpeg";
+import anmol from "@/assets/team/anmol.jpeg";
+import sajina from "@/assets/team/sajina.jpeg";
+import dilasha from "@/assets/team/dilasha.jpeg";
+import pramugdha from "@/assets/team/pramugdha.jpeg";
+
 export interface TeamMember {
-  id: string;
-  name: string;
-  role: string;
-  image: string;
-  isAlumni: boolean;
-  batch?: string;
-  contribution?: string;
+    id: string;
+    name: string;
+    role: string;
+    image: string;
+    isAlumni: boolean;
+    batch?: string;
+    contribution?: string;
 }
 
 export const teamMembers: TeamMember[] = [
-  // Current Members
-  {
-    id: "1",
-    name: "Rahul Sharma",
-    role: "President",
-    image: "/placeholder.svg",
-    isAlumni: false,
-  },
-  {
-    id: "2",
-    name: "Priya Patel",
-    role: "Vice President",
-    image: "/placeholder.svg",
-    isAlumni: false,
-  },
-  {
-    id: "3",
-    name: "Amit Kumar",
-    role: "Secretary",
-    image: "/placeholder.svg",
-    isAlumni: false,
-  },
-  {
-    id: "4",
-    name: "Sneha Gupta",
-    role: "Treasurer",
-    image: "/placeholder.svg",
-    isAlumni: false,
-  },
-  {
-    id: "5",
-    name: "Vikram Singh",
-    role: "Sports Coordinator",
-    image: "/placeholder.svg",
-    isAlumni: false,
-  },
-  {
-    id: "6",
-    name: "Ananya Reddy",
-    role: "Cultural Head",
-    image: "/placeholder.svg",
-    isAlumni: false,
-  },
-  {
-    id: "7",
-    name: "Rohan Mehta",
-    role: "Tech Lead",
-    image: "/placeholder.svg",
-    isAlumni: false,
-  },
-  {
-    id: "8",
-    name: "Kavya Joshi",
-    role: "PR & Marketing",
-    image: "/placeholder.svg",
-    isAlumni: false,
-  },
-  // Alumni
-  {
-    id: "9",
-    name: "Arjun Nair",
-    role: "Founding President",
-    image: "/placeholder.svg",
-    isAlumni: true,
-    batch: "2020-2023",
-    contribution: "Established the club and organized first BCA Cup",
-  },
-  {
-    id: "10",
-    name: "Meera Krishnan",
-    role: "Former Vice President",
-    image: "/placeholder.svg",
-    isAlumni: true,
-    batch: "2020-2023",
-    contribution: "Led cultural initiatives and community outreach",
-  },
-  {
-    id: "11",
-    name: "Siddharth Rao",
-    role: "Former Secretary",
-    image: "/placeholder.svg",
-    isAlumni: true,
-    batch: "2021-2024",
-    contribution: "Streamlined operations and member management",
-  },
-  {
-    id: "12",
-    name: "Divya Sharma",
-    role: "Former Tech Lead",
-    image: "/placeholder.svg",
-    isAlumni: true,
-    batch: "2021-2024",
-    contribution: "Built the first club website and digital presence",
-  },
+    // Current Members
+    {
+        id: "1",
+        name: "Maheshor Silwal",
+        role: "President",
+        image: maheshwor,
+        isAlumni: false,
+    },
+    {
+        id: "2",
+        name: "Bibek Tripathi",
+        role: "Vice President",
+        image: bibek,
+        isAlumni: false,
+    },
+    {
+        id: "3",
+        name: "Pramugdha Chand",
+        role: "Secretary",
+        image: pramugdha,
+        isAlumni: false,
+    },
+    {
+        id: "4",
+        name: "Shabda Maharjan",
+        role: "Treasurer",
+        image: shabda,
+        isAlumni: false,
+    },
+    {
+        id: "5",
+        name: "Ishta Dangol",
+        role: "Social Media",
+        image: ishta,
+        isAlumni: false,
+    },
+    {
+        id: "6",
+        name: "Anmol Ranabhat",
+        role: "Social Media",
+        image: anmol,
+        isAlumni: false,
+    },
+    {
+        id: "15",
+        name: "Sarun Maharjan",
+        role: "Designer",
+        image: sarun,
+        isAlumni: false,
+    },
+    {
+        id: "7",
+        name: "Avash Khadka",
+        role: "Website Developer",
+        image: avash,
+        isAlumni: false,
+    },
+    {
+        id: "8",
+        name: "Riya Tamang",
+        role: "Member",
+        image: riya,
+        isAlumni: false,
+    },
+    {
+        id: "9",
+        name: "Sita Thadamagar",
+        role: "Member",
+        image: sita,
+        isAlumni: false,
+    },
+    {
+        id: "10",
+        name: "Dilasha Maharjan",
+        role: "Member",
+        image: dilasha,
+        isAlumni: false,
+    },
+    {
+        id: "11",
+        name: "Sajina Pradhananga",
+        role: "Member",
+        image: sajina,
+        isAlumni: false,
+    },
+    // Alumni
+    {
+        id: "12",
+        name: "Milin Shakya",
+        role: "Founding President",
+        image: milin,
+        isAlumni: true,
+        batch: "2023-2024",
+    },
+    {
+        id: "13",
+        name: "Dipesh Shakya",
+        role: "Former President",
+        image: dipesh,
+        isAlumni: true,
+        batch: "2023-2024",
+    },
+    {
+        id: "14",
+        name: "Rahita Shakya",
+        role: "Former President",
+        image: rahita,
+        isAlumni: true,
+        batch: "2024-2025",
+    },
 ];
 
 export const getCurrentMembers = () => teamMembers.filter((m) => !m.isAlumni);

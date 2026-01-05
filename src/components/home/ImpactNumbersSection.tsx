@@ -3,8 +3,8 @@ import { motion, useInView } from "framer-motion";
 import { Calendar, Users, Heart, Trophy } from "lucide-react";
 
 const stats = [
-  { icon: Calendar, value: 10, suffix: "+", label: "Events", color: "club-blue" },
-  { icon: Users, value: 500, suffix: "+", label: "Students", color: "club-green" },
+  { icon: Calendar, value: 20, suffix: "+", label: "Events", color: "club-blue" },
+  { icon: Users, value: 200, suffix: "+", label: "Students", color: "club-green" },
   { icon: Heart, value: 30, suffix: "+", label: "Volunteers", color: "club-red" },
   { icon: Trophy, value: 2026, suffix: "", label: "Year of BCA Cup", color: "club-blue" },
 ];
