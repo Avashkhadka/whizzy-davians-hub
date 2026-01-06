@@ -65,6 +65,7 @@ export const HeroSection = () => {
                         className="text-5xl md:text-7xl lg:text-8xl font-extrabold mb-4"
                     >
                         <span className="text-gradient">Whizzy Davians</span>
+                        {/* <span className="text-white">Whizzy Davians</span> */}
                     </motion.h1>
 
                     {/* Tagline */}

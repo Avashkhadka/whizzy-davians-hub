@@ -1,5 +1,5 @@
 import heroSportsImage from "@/assets/hero-sports.jpg";
-import culturalFestImage from "@/assets/sportsCarnival.jpeg";
+import SportsCarnival from "@/assets/sportsCarnival.jpeg";
 import hackathonImage from "@/assets/hackathon.jpg";
 import bcasup2026 from "@/assets/bcacup2026.jpg";
 
@@ -90,18 +90,20 @@ export const events: Event[] = [
         shortDescription: "A celebration of art, music, dance, and creativity featuring student performances.",
         fullDescription:
             "The Sports Carnival is a vibrant celebration of energy, teamwork, and sportsmanship, bringing together students from all semesters to compete, connect, and showcase their talents. The event promotes physical fitness, unity, and healthy competition through a variety of exciting sports activities, creating an inclusive platform where every student gets the opportunity to participate and celebrate the spirit of sports.",
-        image: culturalFestImage,
+        image: SportsCarnival,
         registrationInfo: "Solo and group registrations.",
         sponsors: [
             { name: "Coming Soon", tier: "Title Sponsor" },
             { name: "Coming Soon", tier: "Co-Sponsor" },
         ],
         rules: [
-            "Performance time limits: Solo acts - 5 minutes, Group acts - 10 minutes",
-            "Pre-recorded backing tracks only; no live instruments unless registered",
-            "Content must be appropriate for all audiences",
-            "Props and costumes must be arranged by participants",
-            "Participants must attend the technical rehearsal on March 19",
+            "All participants must be currently enrolled students and carry a valid college ID",
+            "Teams and individual players must report at least 30 minutes before their scheduled match time",
+            "Standard sports rules and fair-play guidelines will be followed for each game",
+            "Any form of misconduct, cheating, or unsportsmanlike behavior will lead to immediate disqualification",
+            "Proper sports attire and safety gear are mandatory during all matches",
+            "The decision of referees and the organizing committee will be final",
+            "Participants must respect opponents, officials, and volunteers at all times",
         ],
         status: "upcoming",
     },
