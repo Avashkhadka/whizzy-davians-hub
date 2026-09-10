@@ -40,7 +40,8 @@ export const EventPopup = () => {
                         animate={{ opacity: 1, scale: 1, y: 0 }}
                         exit={{ opacity: 0, scale: 0.9, y: 20 }}
                         transition={{ type: "spring", damping: 25, stiffness: 300 }}
-                        className="fixed z-50 max-w-lg top-[8%] left-[3%] mr-[1rem] lg:mr-0 lg:top-[11%] lg:left-[34%]"
+                        className="fixed z-50 max-w-lg mr-[1rem] lg:mr-0 popup-card"
+                   
                     >
                         <div className="bg-card rounded-2xl shadow-xl overflow-hidden border border-border">
                             {/* Event Image */}

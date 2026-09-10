@@ -13,7 +13,8 @@ import img12 from "../assets/memories/12.jpg";
 import img13 from "../assets/memories/13.jpg";
 import img14 from "../assets/memories/14.jpg";
 import img15 from "../assets/memories/15.jpg";
-
+import img16 from "../assets/memories/16.jpg";
+import img17 from "../assets/memories/17.jpeg";
 
 export interface GalleryImage {
     id: string;
@@ -27,6 +28,7 @@ export const galleryImages: GalleryImage[] = [
     { id: "2", src: img2, alt: "Cultural Fest Dance Performance", event: "Sports Carnival 2025" },
     { id: "3", src: img3, alt: "Hackathon Team Working", event: "Sports Carnival 2025" },
     { id: "4", src: img4, alt: "Leadership Workshop Session", event: "Sports Carnival 2025" },
+    { id: "17", src: img17, alt: "Finale Celebration", event: "Sports Carnival 2025" },
     { id: "5", src: img5, alt: "Award Ceremony", event: "Sports Carnival 2025" },
     { id: "6", src: img6, alt: "Music Night Performance", event: "Sports Carnival 2025" },
     { id: "7", src: img7, alt: "Team Celebration", event: "Saraswati Puja 2025" },
@@ -38,5 +40,5 @@ export const galleryImages: GalleryImage[] = [
     { id: "13", src: img13, alt: "Coding Workshop", event: "Pubg Tournament 2025" },
     { id: "14", src: img14, alt: "Photography Contest", event: "Sports Carnival 2025" },
     { id: "15", src: img15, alt: "Finale Celebration", event: "Sports Carnival 2025" },
+    { id: "16", src: img16, alt: "Finale Celebration", event: "Sports Carnival 2025" },
 ];
-

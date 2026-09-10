@@ -1,5 +1,4 @@
 import avash from "@/assets/team/avash.jpg";
-import bibek from "@/assets/team/bibek.jpeg";
 import dipesh from "@/assets/team/dipes.jpeg";
 import ishta from "@/assets/team/ishta.jpeg";
 import maheshwor from "@/assets/team/maheshwor.jpeg";
@@ -12,7 +11,7 @@ import riya from "@/assets/team/riya.jpeg";
 import anmol from "@/assets/team/anmol.jpeg";
 import sajina from "@/assets/team/sajina.jpeg";
 import dilasha from "@/assets/team/dilasha.jpeg";
-import pramugdha from "@/assets/team/pramugdha.jpeg";
+import Ishta from "@/assets/team/ishta.jpeg";
 
 export interface TeamMember {
     id: string;
@@ -29,36 +28,23 @@ export const teamMembers: TeamMember[] = [
     {
         id: "1",
         name: "Maheshor Silwal",
-        role: "President",
+        role: "Former President",
         image: maheshwor,
-        isAlumni: false,
+        isAlumni: true,
+        batch: "2024-2025",
     },
     {
         id: "2",
-        name: "Bibek Tripathi",
-        role: "Vice President",
-        image: bibek,
+        name: "Ishta Dangol",
+        role: "President",
+        image: Ishta,
         isAlumni: false,
     },
     {
         id: "3",
-        name: "Pramugdha Chand",
-        role: "Secretary",
-        image: pramugdha,
-        isAlumni: false,
-    },
-    {
-        id: "4",
-        name: "Shabda Maharjan",
-        role: "Treasurer",
-        image: shabda,
-        isAlumni: false,
-    },
-    {
-        id: "5",
-        name: "Ishta Dangol",
-        role: "Social Media",
-        image: ishta,
+        name: "Avash Khadka",
+        role: "Vice President",
+        image: avash,
         isAlumni: false,
     },
     {
@@ -68,6 +54,7 @@ export const teamMembers: TeamMember[] = [
         image: anmol,
         isAlumni: false,
     },
+
     {
         id: "15",
         name: "Sarun Maharjan",
@@ -76,10 +63,10 @@ export const teamMembers: TeamMember[] = [
         isAlumni: false,
     },
     {
-        id: "7",
-        name: "Avash Khadka",
-        role: "Website Developer",
-        image: avash,
+        id: "4",
+        name: "Shabda Maharjan",
+        role: "Member",
+        image: shabda,
         isAlumni: false,
     },
     {
@@ -127,6 +114,14 @@ export const teamMembers: TeamMember[] = [
         isAlumni: true,
         batch: "2023-2024",
     },
+    // {
+    //     id: "15",
+    //     name: "Manashree Shakya",
+    //     role: "Vice President",
+    //     image: manashree,
+    //     isAlumni: true,
+    //     batch: "2024-2025",
+    // },
     {
         id: "14",
         name: "Rahita Shakya",
