@@ -43,7 +43,7 @@ export const EventPopup = () => {
                         className="fixed z-50 max-w-lg mr-[1rem] lg:mr-0 popup-card"
                    
                     >
-                        <div className="bg-card rounded-2xl shadow-xl overflow-hidden border border-border">
+                        <div className="bg-card rounded-2xl shadow-xl overflow-hidden ">
                             {/* Event Image */}
                             <div className="relative h-[22rem] overflow-hidden">
                                 <img src={currentEvent.image} alt={currentEvent.name} className="w-full h-full object-cover" />
