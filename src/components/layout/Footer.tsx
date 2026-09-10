@@ -4,7 +4,7 @@ import { Zap, Mail, Phone, Instagram, Twitter, Facebook, Linkedin, Youtube, Play
 const contacts = [
     { name: "DAV College", role: "Administration", email: "bscbca2022@gmail.com", phone: "+977 01-5429029" },
     { name: "Dil Tamang", role: "ECA Incharge", email: "", phone: "+977 9840748105" },
-    { name: "Maheshwor Silwal", role: "President", email: "", phone: "+977 9869856004" },
+    { name: "Ishta Dangol", role: "President", email: "", phone: "+977 9742500808" },
 ];
 
 const socials = [

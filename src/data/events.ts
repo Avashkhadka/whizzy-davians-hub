@@ -2,6 +2,7 @@ import heroSportsImage from "@/assets/hero-sports.jpg";
 import SportsCarnival from "@/assets/sportsCarnival.jpeg";
 import hackathonImage from "@/assets/hackathon.jpg";
 import bcasup2026 from "@/assets/bcacup2026.jpg";
+import dashainFest2026 from "@/assets/dashainFest2026.jpg";
 
 export interface Event {
     id: string;
@@ -22,7 +23,50 @@ export interface Event {
 
 export const events: Event[] = [
     {
-        id: "1",
+        id: "4",
+        slug: "dashain-fest-2026",
+        name: "Dashain Fest 2026",
+        date: "2026-10-15",
+        align: " h-[52rem]",
+        time: "10:00 AM - 6:00 PM",
+        venue: "DAV College, Lalitpur",
+        shortDescription: "A vibrant Dashain celebration featuring cultural performances, traditional activities, music, food, and entertainment.",
+        fullDescription:
+            "Dashain Fest 2026 is a special celebration organized to bring students together through culture, music, food, games, and entertainment. The event will showcase traditional Nepali culture through various performances and activities while creating an enjoyable and memorable experience for the entire college community.",
+        image: dashainFest2026,
+        registrationInfo: "Participation details and registration information will be announced by the organizers.",
+        sponsors: [
+            // { name: "Coming Soon", tier: "Title Sponsor" },
+            // { name: "Coming Soon", tier: "Co-Sponsor" },
+            // { name: "Coming Soon", tier: "Partner" },
+            // { name: "Coming Soon", tier: "Partner" },
+        ],
+        rules: [
+            "All participants must follow the instructions provided by the organizing committee",
+            "Participants must carry valid college ID when required",
+            "Participants must arrive at the venue on time",
+            "Proper and respectful behavior is expected throughout the event",
+            "Traditional and cultural activities must be performed respectfully",
+            "Any form of misconduct may result in removal from the event",
+            "Smoking, drinking, drug use, and abusive language are strictly prohibited inside college premises",
+            "Participants are responsible for their personal belongings",
+            "Proper dress code must be maintained according to the nature of the event",
+            "Food and beverages must be consumed only in designated areas",
+            "Participants must not damage college property or event equipment",
+            "The organizing committee's decision will be final in case of disputes",
+            "All participants must maintain cleanliness around the event venue",
+            "Photography and video recording must respect the privacy of other participants",
+            "Any activity that creates a safety risk may be stopped by the organizers",
+            "Event schedules and activities may be changed by the organizers when necessary",
+            "Participants must cooperate with volunteers and event coordinators",
+            "Any special requirements for performances must be communicated to the organizers in advance",
+            "The organizers reserve the right to deny participation in case of rule violations",
+            "To be announced by organizers",
+        ],
+        status: "current",
+    },
+    {
+        id: "3",
         slug: "bca-cup-2026",
         name: "BCA Cup 2026",
         date: "2026-01-23",
@@ -35,10 +79,10 @@ export const events: Event[] = [
         image: bcasup2026,
         registrationInfo: "Registration is open until January 21, 2026. Teams must consist of 10 players for football. Entry fee: Rs.12000 per team.",
         sponsors: [
-            { name: "Coming Soon", tier: "Title Sponsor" },
-            { name: "Coming Soon", tier: "Co-Sponsor" },
-            { name: "Coming Soon", tier: "Partner" },
-            { name: "Coming Soon", tier: "Partner" },
+            // { name: "Coming Soon", tier: "Title Sponsor" },
+            // { name: "Coming Soon", tier: "Co-Sponsor" },
+            // { name: "Coming Soon", tier: "Partner" },
+            // { name: "Coming Soon", tier: "Partner" },
         ],
         rules: [
             "All participants must be currently enrolled college students with valid ID",
@@ -77,7 +121,7 @@ export const events: Event[] = [
             "Organizers can demand any documentation at any time",
             "To be announced by organizers",
         ],
-        status: "current",
+        status: "past",
     },
     {
         id: "2",
@@ -105,10 +149,10 @@ export const events: Event[] = [
             "The decision of referees and the organizing committee will be final",
             "Participants must respect opponents, officials, and volunteers at all times",
         ],
-        status: "upcoming",
+        status: "past",
     },
     {
-        id: "3",
+        id: "1",
         slug: "hackathon-2025",
         name: "DAV Codefest 2025",
         date: "2025-07-25",

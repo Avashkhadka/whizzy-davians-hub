@@ -1,5 +1,5 @@
 import img1 from "../assets/memories/1.jpg";
-import img2 from "../assets/memories/17.jpeg";
+import img2 from "../assets/memories/2.jpg";
 import img3 from "../assets/memories/3.jpg";
 import img4 from "../assets/memories/4.jpg";
 import img5 from "../assets/memories/5.jpg";
@@ -13,8 +13,8 @@ import img12 from "../assets/memories/12.jpg";
 import img13 from "../assets/memories/13.jpg";
 import img14 from "../assets/memories/14.jpg";
 import img15 from "../assets/memories/15.jpg";
-import img16 from "../assets/memories/2.jpg";
-import img17 from "../assets/memories/18.jpeg";
+import img16 from "../assets/memories/16.jpg";
+import img17 from "../assets/memories/17.jpeg";
 
 export interface GalleryImage {
     id: string;

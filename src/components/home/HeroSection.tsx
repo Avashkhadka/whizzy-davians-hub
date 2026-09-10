@@ -23,7 +23,7 @@ export const HeroSection = () => {
     return (
         <section className="relative min-h-[60vh] flex items-center justify-center overflow-hidden">
             {/* Background Pattern */}
-            <div className="absolute inset-0 bg-black/40 z-10 " />
+            <div className="absolute inset-0 bg-black/50 z-10 " />
             <motion.div
                 className="absolute inset-0 flex"
                 animate={{ x: `-${index * 100}%` }}
